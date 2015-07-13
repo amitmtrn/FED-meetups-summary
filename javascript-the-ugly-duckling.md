@@ -62,3 +62,27 @@
 ### functors
 
 ## Bringing Synchronous Semantics to Asynchronous JavaScript, by Dima Abramchaev (Sela)
+
+### promises
+* async.js
+* Q.js
+* es 2016 - async-await
+  * non blocking
+  * breaks execution
+  * resumes execution when promise os resolve
+  * maintains synchromous Semantics
+    * scope
+    * chanditions
+    * loops
+    * **try-catch**
+  * not yet supported, but can be replaced.
+* es6 yield - await's long lost twin
+
+### iteration protocols
+* every object that contains property - Symbol.iterator
+* es6 @@iterable method - [Symbol.iterator]
+* spread operator `...range`
+
+### using generators with promise to act like await
+[promise.js](https://www.promisejs.org/generators/)
+[co.js](https://github.com/tj/co)
