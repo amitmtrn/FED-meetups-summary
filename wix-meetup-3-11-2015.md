@@ -128,16 +128,34 @@ make things slower
 ## Scaling to 70 million users
 *Yoav Abrahami*
 
+* plan for gradual rewrite
+* split the system by SLA and release cycle
+* use mysql as noSql server
+* use managed hosting
+* people are the key - give people the responsibility
+  * how to hire the people they want to work with 3 questions
+    * what have you done? why you did that?
+    * solving question, example how do I build ecommerce? (design conversation)
+    * write code
+
+solution
+* Continues delivery
+* micro services - per team
+  * independent deployment
+  * independent OS process
+  * independent database
+
+### companies vs guilds
+* companies focus on products
+* guilds focus on technology
 
 
-
-
-
-
-keywords
+**keywords**
 * circular list
 * python stack overflow
 * colabe edit
 * computer science 101
 * go
 * irb
+* monolite
+* hops in micro services
